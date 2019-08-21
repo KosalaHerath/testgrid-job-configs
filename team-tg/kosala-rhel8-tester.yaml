@@ -11,9 +11,9 @@ infrastructureConfig:
   - CentOS-7.5
 #  - SUSE-Linux-12
   - MySQL-5.7
-#  - Oracle-SE2-12.1
-#  - SQLServer-SE-14.00
-#  - Postgres-10.5
+  - Oracle-SE2-12.1
+  - SQLServer-SE-14.00
+  - Postgres-10.5
   - OPEN_JDK8
   provisioners:
   - name: single-node-deployment
@@ -51,7 +51,7 @@ infrastructureConfig:
         region: "us-east-1"
 scenarioConfigs:
 - testType: TESTNG
-  remoteRepository: "ht tps://github.com/wso2/product-ei.git"
+  remoteRepository: "https://github.com/wso2/product-ei.git"
   remoteBranch: "master"
   name: "ei-scenarios"
   description: "ei-scenarios"

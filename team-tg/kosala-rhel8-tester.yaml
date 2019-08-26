@@ -51,8 +51,8 @@ infrastructureConfig:
         region: "us-east-1"
 scenarioConfigs:
 - testType: TESTNG
-  remoteRepository: "https://github.com/wso2/product-ei.git"
-  remoteBranch: "master"
+  remoteRepository: "https://github.com/KosalaHerath/product-ei.git"
+  remoteBranch: "master-rhel8"
   name: "ei-scenarios"
   description: "ei-scenarios"
   file: product-scenarios/test.sh
